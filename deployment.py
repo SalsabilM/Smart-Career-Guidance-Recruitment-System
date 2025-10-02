@@ -8,7 +8,6 @@ import ast
 from collections import Counter
 from wordcloud import WordCloud
 
-
 best_model = joblib.load("best_model.pkl")
 mlb = joblib.load("mlb.pkl")
 le = joblib.load("le.pkl")
